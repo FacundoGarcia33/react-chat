@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #d3d3d3; /* Gris claro */
+  width: 70px;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.aside i {
+  font-size: 25px;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+  text-decoration: none;
+}
+.aside a {
+  color: inherit;
+  text-decoration: none;
+}
+.aside i:hover {
+  color: #007bff;
+}
+
+.aside a:hover {
+  color: #007bff;
+}

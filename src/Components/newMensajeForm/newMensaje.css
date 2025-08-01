@@ -1,0 +1,80 @@
+form {
+  display: flex;
+  align-items: center;
+  background-color: rgba(
+    37,
+    211,
+    102,
+    0.8
+  ); /* Color verde más claro y con opacidad */
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  margin-left: 72px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+label {
+  display: none;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 22px;
+  color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+input[type="text"]::placeholder {
+  color: #fafafa;
+}
+button {
+  background-color: #fafafa;
+  color: #25d366;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 70px;
+  margin-bottom: 12px;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 458px) {
+  form {
+    flex-direction: row;
+    height: auto;
+    padding: 6px;
+  }
+  input[type="text"] {
+    margin-right: 0;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  button {
+    font-size: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  input[type="text"] {
+    margin-right: 0;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .Submit {
+    font-size: 7px;
+    padding: 10px 2px;
+    border-radius: 5px;
+  }
+}

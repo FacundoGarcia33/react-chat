@@ -1,0 +1,25 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+.ChatSreen-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../asests/fondoimg.jpg);
+  color: #fafafa;
+}
+
+.ChatSreen-container h1 {
+  font-size: 80px;
+  color: #fafafa;
+  text-align: center;
+}
+
+.deletestyle {
+  display: inline-block;
+  background-color: #25d366;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}

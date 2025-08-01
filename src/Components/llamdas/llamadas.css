@@ -1,0 +1,10 @@
+.llamadas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.llamadas-container h1 {
+  font-size: 50px;
+  color: #fafafa;
+}

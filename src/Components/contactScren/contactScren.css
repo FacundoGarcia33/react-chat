@@ -1,0 +1,54 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+}
+.contact-container:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+}
+
+.contact-data {
+  display: flex;
+  align-items: center;
+}
+
+.contact-container h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: none;
+}
+
+.contact-container p {
+  margin: 0;
+  font-size: 14px;
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+.contact-container img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.total-message {
+  display: flex;
+  justify-content: end;
+}
+
+.total-cuantiti-messages {
+  padding: 6px;
+  background-color: #21c063;
+  color: #d3d3d3;
+  border-radius: 100%;
+  color: #0a0a0a;
+  text-decoration: none;
+}
