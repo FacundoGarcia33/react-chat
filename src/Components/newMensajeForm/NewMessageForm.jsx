@@ -1,5 +1,5 @@
 import React from "react";
-import "../newMensajeForm/NewMessageForm.css";
+import "./newMensaje.css";
 export const NewMensaje = ({ nuevoMensaje }) => {
   const handleSubmitSendMessageForm = (event) => {
     event.preventDefault();
